@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Design Challenge 3 </title>
+</head>
+<body>
+    <div id='main'>
+
+        <h1>Seattle Weather Data</h1>
+        <h3>July 1, 2014 - June 30, 2016 (Daily Values Recorded)</h3>
+
+        <button id='var1' type='button' onclick="update('actual_mean_temp')"> Mean Temp Per Day (Degrees Fahrenheit) </button>
+        <button id='var2' type='button' onclick="update('actual_precipitation')"> Precipitation Level Per Day (Inches) </button>
+
+        <div id="barplot"></div>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v6.js"></script>
+<script src="main.js"></script>
+</html>
